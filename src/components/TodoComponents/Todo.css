@@ -1,0 +1,50 @@
+.mainapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+.todoListContainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.todoItem {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.todoFormContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.todoForm {
+    display: flex;
+    justify-content: center;
+}
+
+.todoInput {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.todoButton {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
